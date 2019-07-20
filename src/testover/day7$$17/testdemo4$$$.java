@@ -30,8 +30,11 @@ public class testdemo4$$$ {
             for (int j = 0; j < jzz.length-1; j++) {
                 if (jzz[j]>jzz[j+1]){
                     int tmp = jzz[j];
-                    jzz[j] = jzz[j+1];hdz
-        }发的招待费会做饭的或者返回绽放的花字符花烛洞房
+                    jzz[j] = jzz[j+1];
+                    jzz[j+1] = tmp;
+                }
+            }
+        }
         for (int i : jzz) {
             System.out.println(i);
         }
